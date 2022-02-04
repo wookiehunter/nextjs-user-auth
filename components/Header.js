@@ -1,6 +1,6 @@
 import styles from '../styles/Header.module.css';
 import Link from 'next/link';
-import { SignInOptions, signOut, useSession } from 'next-auth/react';
+import { signIn, signOut, useSession } from 'next-auth/react';
 
 export default function Header() {
 	const { data: session, status } = useSession();
