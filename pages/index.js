@@ -26,6 +26,7 @@ export default function App() {
 				<div className='img'>
 					<Image src={'/samurai-01.jpg'} width={500} height={500} />
 				</div>
+				<p>Build in public...</p>
 			</Layout>
 		</ThemeProvider>
 	);
