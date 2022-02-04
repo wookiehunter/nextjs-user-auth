@@ -20,18 +20,20 @@ export default function Header() {
 					{!session && (
 						<>
 							<p className={styles.notSignedInText}>
-								You are not signed in - 
+								You are not signed in -{' '}
+								<span>
+									<a
+										href={`/api/auth/signin`}
+										className={styles.buttonPrimary}
+										onClick={(e) => {
+											e.preventDefault();
+											signIn();
+										}}
+									>
+										Sign in
+									</a>
+								</span>
 							</p>
-							<a
-								href={`/api/auth/signin`}
-								className={styles.buttonPrimary}
-								onClick={(e) => {
-									e.preventDefault();
-									signIn();
-								}}
-							>
-								 Sign in
-							</a>
 						</>
 					)}
 					{session && (
