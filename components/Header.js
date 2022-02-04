@@ -30,7 +30,7 @@ export default function Header() {
 									signIn();
 								}}
 							>
-								Sign in
+								 Sign in
 							</a>
 						</>
 					)}
