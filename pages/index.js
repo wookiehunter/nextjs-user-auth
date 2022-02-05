@@ -24,7 +24,7 @@ export default function App() {
 			<Layout>
 				<h1>NextJS Playground</h1>
 				<div className='img'>
-					<Image src={'/samurai-01.jpg'} width={500} height={500} />
+					<Image src={'/samurai-01.jpg'} width={500} alt="Samurai Steven" height={500} />
 				</div>
 				<p>Build in public...</p>
 			</Layout>
