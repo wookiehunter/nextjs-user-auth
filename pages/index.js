@@ -1,6 +1,7 @@
 import * as React from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Skeleton } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import Layout from '../components/Layout';
 import Image from 'next/image';
